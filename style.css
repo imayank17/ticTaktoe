@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 4rem;
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 5rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+}
+#reset-btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    border: none;
+}
+#new-game-btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.hide{
+    display:none;
+}
+#msg{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(0, 46, 48);
+   
+    width: 50vw;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: rgb(150, 168, 116);
+    text-shadow: 2px 0px 0px rgba(128, 0, 64, 1), 
+                 3px 2px 0px rgba(77, 0, 38, 0.5), 
+                 3px 0px 3px rgba(255, 0, 43, 1), 
+                 5px 0px 3px rgba(128, 0, 21, 1), 
+                 6px 2px 3px rgba(77, 0, 13, 0.5), 
+                 6px 0px 9px rgba(255, 85, 0, 1), 
+                 8px 0px 9px rgba(128, 42, 0, 1), 
+                 9px 2px 9px rgba(77, 25, 0, 0.5), 
+                 9px 0px 18px rgba(255, 213, 0, 1), 
+                 11px 0px 18px rgba(128, 106, 0, 1), 
+                 12px 2px 18px rgba(77, 66, 0, 0.5), 
+                 12px 0px 30px rgba(212, 255, 0, 1), 
+                 14px 0px 30px rgba(106, 128, 0, 1), 
+                 15px 2px 30px rgba(64, 77, 0, 0.5), 
+                 15px 0px 45px rgba(128, 255, 0, 1), 
+                 17px 0px 45px rgba(64, 128, 0, 1), 
+                 17px 2px 45px rgba(38, 77, 0, 0.5);
+
+}
+.x{
+color: #0008ec;
+}
+.o{
+color: rgb(255, 0, 0);
+}
+.box.highlight {
+    background-color: rgb(0, 59, 16);  /* Highlight color */
+}
